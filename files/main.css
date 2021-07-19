@@ -1,0 +1,76 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #444;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 0 20px;
+  max-width: 1000px;
+}
+
+.header {
+  margin-top: 60px;
+}
+
+.slogan {
+  background: transparent url('./icon.png') center 5px no-repeat;
+  background-size: 120px 120px;
+  padding-top: 140px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  color: #999;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
+}
+
+.twitter {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.screen {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.screen img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.footer a {
+  margin: 10px 5px 0;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+
+.footer .twitter {
+  background-color: #55acee;
+  -webkit-mask-image: url(twitter.svg);
+  mask-image: url(twitter.svg);
+}
+
+.footer .github {
+  background-color: #444;
+  -webkit-mask-image: url(github.svg);
+  mask-image: url(github.svg);
+}
