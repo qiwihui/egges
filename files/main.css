@@ -14,9 +14,7 @@ body {
 }
 
 .slogan {
-  background: transparent url('./icon.png') center 5px no-repeat;
-  background-size: 120px 120px;
-  padding-top: 140px;
+  padding-top: 70px;
 }
 
 h1 {
@@ -32,11 +30,10 @@ h2 {
   color: #999;
   font-weight: 300;
   font-size: 20px;
-  margin: 0;
+  /* margin: 0; */
 }
 
-.twitter {
-  margin: 50px auto;
+.logo {
   text-align: center;
 }
 
@@ -45,9 +42,8 @@ h2 {
   text-align: center;
 }
 
-.screen img {
-  max-width: 100%;
-  height: auto;
+.screen>a img {
+  margin-top: 50px;
 }
 
 .footer {
@@ -65,12 +61,17 @@ h2 {
 
 .footer .twitter {
   background-color: #55acee;
-  -webkit-mask-image: url(twitter.svg);
-  mask-image: url(twitter.svg);
+}
+
+.twitter {
+  text-align: center;
 }
 
 .footer .github {
   background-color: #444;
-  -webkit-mask-image: url(github.svg);
-  mask-image: url(github.svg);
+}
+
+.github {
+  margin: 50px auto;
+  text-align: center;
 }
