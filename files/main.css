@@ -35,6 +35,20 @@ h2 {
 
 .logo {
   text-align: center;
+
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+}
+
+.main-img {
+  display: block; 
+  height: auto;
+  max-width: 960px;
+  max-height: 600px;
+  width: 100%;
 }
 
 .screen {
